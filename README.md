@@ -1,2 +1,4 @@
-# mdd_filters
-Filters for MILLION DOLLAR DREAM bloom filter tool
+# MILLION DOLLAR DREAM filters
+Every man has a price.
+
+Filters for [Million Dollar Dream](https://github.com/droberson/million_dollar_dream) tool.

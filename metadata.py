@@ -1,4 +1,5 @@
 from datetime import datetime
+from rfc3339 import rfc3339
 import hashlib
 import json
 import os
@@ -30,7 +31,7 @@ for file_name in os.listdir(repo):
             last_modified = datetime.fromtimestamp(mtime)
         if file_name not in metadata:
             metadata[file_name] = dict()
-        metadata[file_name]["last_modified"] = last_modified.isoformat()
+        metadata[file_name]["last_modified"] = rfc3339(last_modified)
         metadata[file_name]["md5"] = md5_hash.hexdigest()
         metadata[file_name]["sha1"] = sha1_hash.hexdigest()
         metadata[file_name]["sha256"] = sha256_hash.hexdigest()

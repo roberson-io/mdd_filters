@@ -1,4 +1,11 @@
 {
+    "drupal": {
+        "description": "",
+        "last_modified": "2019-07-23T22:40:44-04:00",
+        "md5": "7a08dda1d7de91023bc750ab34a2a42e",
+        "sha1": "fda171f99f0040ff8a574c7b19737a9a3e5f2e79",
+        "sha256": "e4e6a455d9607445ed516ddc6993d1bb3c67dc48e177688cd9a9deb527d0b836"
+    },
     "joomla": {
         "description": "",
         "last_modified": "2019-06-01T14:58:00-04:00",

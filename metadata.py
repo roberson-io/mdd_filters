@@ -31,7 +31,17 @@ for file_name in os.listdir(repo):
             last_modified = datetime.fromtimestamp(mtime)
         if file_name not in metadata:
             metadata[file_name] = dict()
-        metadata[file_name]["last_modified"] = rfc3339(last_modified)
+        # RFC 3339 required when unmarshalling JSON as time.Time in Go.
+        # RFC 3339 uses a colon in the UTC offset
+        # (Example: "2019-07-23T22:40:44-04:00"),
+        # but only Python 3.7+ supports it with the
+        # %z directive for strptime()
+        # https://docs.python.org/3.7/library/datetime.html#strftime-strptime-behavior
+        # I don't want to require the rfc3339 or pytz package in Python mdd.
+        # We may be able to just strip the last colon out in Python, but
+        # I'm just providing both for now.
+        metadata[file_name]["last_modified"] = last_modified.isoformat()
+        metadata[file_name]["last_modified_rfc3339"] = rfc3339(last_modified)
         metadata[file_name]["md5"] = md5_hash.hexdigest()
         metadata[file_name]["sha1"] = sha1_hash.hexdigest()
         metadata[file_name]["sha256"] = sha256_hash.hexdigest()

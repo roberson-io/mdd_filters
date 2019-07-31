@@ -1,35 +1,40 @@
 {
     "drupal": {
-        "description": "",
-        "last_modified": "2019-07-23T22:40:44-04:00",
+        "description": "Drupal source code 4.0.0 - 9.x-dev",
+        "last_modified": "2019-07-23T22:40:44.823721",
+        "last_modified_rfc3339": "2019-07-23T22:40:44-04:00",
         "md5": "7a08dda1d7de91023bc750ab34a2a42e",
         "sha1": "fda171f99f0040ff8a574c7b19737a9a3e5f2e79",
         "sha256": "e4e6a455d9607445ed516ddc6993d1bb3c67dc48e177688cd9a9deb527d0b836"
     },
     "joomla": {
-        "description": "",
-        "last_modified": "2019-06-01T14:58:00-04:00",
+        "description": "Joomla",
+        "last_modified": "2019-06-01T14:58:00.803945",
+        "last_modified_rfc3339": "2019-06-01T14:58:00-04:00",
         "md5": "ee43cb8cf2960bd5cd36c73d4de4bfdb",
         "sha1": "a0cd62cc4cd071fd07c279666a69afe2fd09ccee",
         "sha256": "3ad406d5927561b5e933ab0aebd0d02710faa72c2652878aaf3ae0f7d3018bc0"
     },
     "linux": {
-        "description": "",
-        "last_modified": "2019-06-01T14:58:00-04:00",
+        "description": "Linux",
+        "last_modified": "2019-06-01T14:58:00.812945",
+        "last_modified_rfc3339": "2019-06-01T14:58:00-04:00",
         "md5": "162afbdf9f08ff7e191d6b8d2c1bf98e",
         "sha1": "9f967f9ce210a0849c89374c491a5066765172b9",
         "sha256": "0c0e04c3fbb0746a5ab53d2d1f2cd8444cd65c2543f66f536f4fc32913c65516"
     },
     "virusshare": {
-        "description": "",
-        "last_modified": "2019-06-01T14:58:00-04:00",
+        "description": "VirusShare",
+        "last_modified": "2019-06-01T14:58:00.836945",
+        "last_modified_rfc3339": "2019-06-01T14:58:00-04:00",
         "md5": "1e4f0c633887ebc563d4b15dbaeb7410",
         "sha1": "1c51d86549734c6f4061adb9c0ebb3e0c374b5c2",
         "sha256": "c1f665699e91aca7562d1628741b0b37d13487581a8cbaa3bd47f26fdfc86510"
     },
     "windows": {
-        "description": "",
-        "last_modified": "2019-06-01T14:58:00-04:00",
+        "description": "Windows",
+        "last_modified": "2019-06-01T14:58:00.845945",
+        "last_modified_rfc3339": "2019-06-01T14:58:00-04:00",
         "md5": "50af6266b5ce3a4a85776ae64673098d",
         "sha1": "dc053c47f6b2a67df0b1e7651215c0c619e8b2fd",
         "sha256": "7d58cbd15dacffd1d4a9987df19f5ae6c344108122ec99f6c72ae3d4ec940b74"
